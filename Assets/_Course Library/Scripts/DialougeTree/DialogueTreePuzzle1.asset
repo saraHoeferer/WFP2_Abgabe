@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6520455389f9f246ae9b647bc2ada63, type: 3}
+  m_Name: DialogueTreePuzzle1
+  m_EditorClassIdentifier: 
+  sections:
+  - dialogue:
+    - Hi There!
+    - I am Stan
+    - Welcome to the Inn Teresting.
+    endAfterDialogue: 0
+    branchPoint:
+      question: What do you need
+      answers:
+      - answerLabel: Learn more about the Inn
+        nextElement: 1
+      - answerLabel: Help
+        nextElement: 2
+      - answerLabel: Nothing
+        nextElement: 3
+  - dialogue:
+    - Info about the Inn....
+    endAfterDialogue: 0
+    branchPoint:
+      question: Do you need something else?
+      answers:
+      - answerLabel: Hint
+        nextElement: 2
+      - answerLabel: Nothing
+        nextElement: 3
+  - dialogue:
+    - I can provide Hints for Puzzle two
+    endAfterDialogue: 0
+    branchPoint:
+      question: What do you need?
+      answers:
+      - answerLabel: Infos about the Inn.
+        nextElement: 1
+      - answerLabel: Hint
+        nextElement: 2
+      - answerLabel: Nothing
+        nextElement: 3
+  - dialogue: []
+    endAfterDialogue: 1
+    branchPoint:
+      question: 
+      answers: []
+  - dialogue:
+    - Einfacher Hint
+    endAfterDialogue: 1
+    branchPoint:
+      question: 
+      answers: []
+  - dialogue:
+    - Mittlerer Hint
+    endAfterDialogue: 1
+    branchPoint:
+      question: 
+      answers: []
+  - dialogue:
+    - Schwerer Hint
+    endAfterDialogue: 1
+    branchPoint:
+      question: 
+      answers: []
+  - dialogue: []
+    endAfterDialogue: 0
+    branchPoint:
+      question: What do you need?
+      answers:
+      - answerLabel: Infos about the Inn.
+        nextElement: 1
+      - answerLabel: Hint
+        nextElement: 2
+      - answerLabel: Nothing
+        nextElement: 3
