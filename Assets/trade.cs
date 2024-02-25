@@ -33,6 +33,9 @@ public class trade : MonoBehaviour
             digiPadOld.SetActive(false);
             digiPadSecret.SetActive(true);
             //key.SetActive(true);
+        } else {
+            tradeTriggered = true;
+             GameObject.Find(transform.name).SetActive(false);
         }
     }
 

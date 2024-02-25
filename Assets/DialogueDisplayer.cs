@@ -39,7 +39,7 @@ public class DialogeDisplayyer : MonoBehaviour
     public void StartDialogue()
     {
         ResetBox();
-        nameText.text = name + "...";
+        nameText.text = name;
         dialogueBox.SetActive(true);
         if (!alreadyTalked) {
             StartCoroutine(RunDialogue(dialogueTree, 0));
@@ -55,7 +55,7 @@ public class DialogeDisplayyer : MonoBehaviour
         for (int i = 0; i < dialogueTree.sections[section].dialogue.Length; i++)
         {
             dialogueText.text = dialogueTree.sections[section].dialogue[i];
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
         }
 
         if (section == 1) {

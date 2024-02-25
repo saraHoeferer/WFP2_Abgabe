@@ -53,7 +53,7 @@ public class DialogeDisplayyer3 : MonoBehaviour
         ResetBox();
         ResetBools();
         check = 1;
-        nameText.text = name + "...";
+        nameText.text = name;
         dialogueBox.SetActive(true);
         if (!alreadyTalked)
         {
@@ -97,43 +97,44 @@ public class DialogeDisplayyer3 : MonoBehaviour
 
         if (section == 1 && check == 2)
         {
-            dialogueText.text = "Okay what happend next?";
-            yield return new WaitForSeconds(5);
+            dialogueText.text = "Right! So what happend next?";
+            yield return new WaitForSeconds(3);
         }
         else if (section == 1 && check == 3)
         {
-            dialogueText.text = "What happend third?";
-            yield return new WaitForSeconds(5);
+            dialogueText.text = "Remarkable! And then what?";
+            yield return new WaitForSeconds(3);
         }
         else if (section == 1 && check == 4)
         {
-            dialogueText.text = "What happend last?";
-            yield return new WaitForSeconds(5);
+            dialogueText.text = "Ohh I remember! What happened at last?";
+            yield return new WaitForSeconds(3);
         }
         else
         {
             for (int i = 0; i < dialogueTree.sections[section].dialogue.Length; i++)
             {
                 dialogueText.text = dialogueTree.sections[section].dialogue[i];
-                yield return new WaitForSeconds(5);
+                yield return new WaitForSeconds(3);
             }
         }
+
 
         if (section == 2)
         {
             print("here");
             print(puzzle4.wrongGuess);
-            if (puzzle4.wrongGuess < 5)
+            if (puzzle4.wrongGuess < 2)
             {
                 StartCoroutine(RunDialogue(dialogueTree, 4));
                 yield break;
             }
-            else if (puzzle4.wrongGuess >= 5 && puzzle4.wrongGuess < 10)
+            else if (puzzle4.wrongGuess >= 2 && puzzle4.wrongGuess < 4)
             {
                 StartCoroutine(RunDialogue(dialogueTree, 5));
                 yield break;
             }
-            else if (puzzle4.wrongGuess >= 10)
+            else if (puzzle4.wrongGuess >= 4)
             {
                 StartCoroutine(RunDialogue(dialogueTree, 6));
                 yield break;

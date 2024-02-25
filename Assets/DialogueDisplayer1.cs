@@ -39,7 +39,7 @@ public class DialogeDisplayyer1 : MonoBehaviour
     public void StartDialogue()
     {
         ResetBox();
-        nameText.text = name + "...";
+        nameText.text = name;
         dialogueBox.SetActive(true);
         if (!alreadyTalked) {
             StartCoroutine(RunDialogue(dialogueTree, 0));
@@ -55,19 +55,19 @@ public class DialogeDisplayyer1 : MonoBehaviour
         for (int i = 0; i < dialogueTree.sections[section].dialogue.Length; i++)
         {
             dialogueText.text = dialogueTree.sections[section].dialogue[i];
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
         }
 
         if (section == 2) {
             print("here");
             print(gameLogic.getWrongPlace());
-            if (gameLogic.getWrongPlace() < 5) {
+            if (gameLogic.getWrongPlace() < 8) {
                 StartCoroutine(RunDialogue(dialogueTree, 4));
                 yield break;
-            } else if (gameLogic.getWrongPlace() >= 5 && gameLogic.getWrongPlace() < 10) {
+            } else if (gameLogic.getWrongPlace() >= 8 && gameLogic.getWrongPlace() < 15) {
                 StartCoroutine(RunDialogue(dialogueTree, 5));
                 yield break;
-            } else if (gameLogic.getWrongPlace() >= 10) {
+            } else if (gameLogic.getWrongPlace() >= 15) {
                 StartCoroutine(RunDialogue(dialogueTree, 6));
                 yield break;
             }
