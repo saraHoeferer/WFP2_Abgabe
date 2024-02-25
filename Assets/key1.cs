@@ -22,12 +22,14 @@ public class key1 : MonoBehaviour
         if (objName.transform.name == key.name){
             print("here");
             key.SetActive(false);
-            if (key.name == "KeyPuzzle4Object" ) {
+            if (key.name == "Exit - Key" ) {
                 SceneManager.LoadScene(2);
             } else {
                 doorHandle.SetActive(true);
                 GameObject.Find(transform.name).SetActive(false);
             }
+        } else if (objName.transform.name == "Secret - Key") {
+            SceneManager.LoadScene(3);
         }
     }
 }

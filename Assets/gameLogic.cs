@@ -24,6 +24,8 @@ public class gameLogic : MonoBehaviour
 
     public static bool key3 = false;
 
+    public static bool key4 = false;
+
     private AudioSource sounds;
     // Start is called before the first frame update
     void Start()
@@ -57,7 +59,7 @@ public class gameLogic : MonoBehaviour
 
     public static void pickupKey() {
         if (!found) {
-          GameObject.Find("keyText").SetActive(false);
+           GameObject.Find("key").transform.GetChild(1).gameObject.SetActive(false);
           found = true;
         }
     }
