@@ -14,11 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sections:
   - dialogue:
-    - Hi There!
-    - Something happend in this Room. Help me found out what.
+    - Oh, thank goodness you're here!
+    - My room's a chaotic whirlwind, and I can't make heads or tails of it.
+    - "I am usually so organized, but shirts are crumpled, papers are askew \u2013
+      it's a mess."
+    - Can you help me figure out what happened?
     endAfterDialogue: 0
     branchPoint:
-      question: What do you need
+      question: Do you need anything?
       answers:
       - answerLabel: Explain what happend
         nextElement: 1
@@ -27,10 +30,10 @@ MonoBehaviour:
       - answerLabel: Nothing
         nextElement: 3
   - dialogue:
-    - 'Okay so explain me what happend: '
+    - 'I knew you could solve this mystery! Tell me what happened:'
     endAfterDialogue: 0
     branchPoint:
-      question: What happend first
+      question: Tell me what happened in the beginning?
       answers:
       - answerLabel: Chair
         nextElement: 1
@@ -40,8 +43,7 @@ MonoBehaviour:
         nextElement: 1
       - answerLabel: Seating
         nextElement: 1
-  - dialogue:
-    - I can provide Hints for Puzzle two
+  - dialogue: []
     endAfterDialogue: 0
     branchPoint:
       question: What do you need?
@@ -58,19 +60,24 @@ MonoBehaviour:
       question: 
       answers: []
   - dialogue:
-    - Einfacher Hint
+    - You see, I am not really sure myself what happened. Maybe you need to investigate
+      more?
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Mittlerer Hint
+    - 'Hmm..
+
+      Can you please pick up the chair for me?'
+    - This mess is getting to my head!
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Schwerer Hint
+    - Aha! I remember something!
+    - The first thing on my morning routine is to take a nice warm bath.
     endAfterDialogue: 1
     branchPoint:
       question: 
@@ -78,7 +85,7 @@ MonoBehaviour:
   - dialogue: []
     endAfterDialogue: 0
     branchPoint:
-      question: What do you need?
+      question: Do you need something?
       answers:
       - answerLabel: Explain what happend
         nextElement: 1
@@ -87,16 +94,16 @@ MonoBehaviour:
       - answerLabel: Nothing
         nextElement: 3
   - dialogue:
-    - You made it. Here is the Key!
+    - Thank you so much stranger! I knew I could count on you. Here is the key!
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - I dont think that is what happend
+    - 'Hmm this doesn''t seem right. I think you got my morning routine wrong. '
     endAfterDialogue: 0
     branchPoint:
-      question: Wanna try again?
+      question: Do you want to try again?
       answers:
       - answerLabel: Yes
         nextElement: 1

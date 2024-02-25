@@ -14,12 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sections:
   - dialogue:
-    - Hi There!
-    - I am Stan
-    - Welcome to the Inn Teresting.
+    - 'Oh, hello stranger!
+
+      My name is Stan.
+
+      I think...'
+    - You see, I've been in here for ages, and my mind starts to play hide and seek.
+    - 'I can''t find my coins or my precious axe...
+
+      All gone..'
+    - "Could be the housekeeper, or perhaps my forgetful mind. \nYou can't trust
+      anyone these days!"
+    - Oh well, I am not trying to scare you.
+    - Perhaps a young clever one like you could help an old soul organize this chaos?
+    - 'I have written it all down here on the list!
+
+      Take a look behind the
+      door.
+
+'
     endAfterDialogue: 0
     branchPoint:
-      question: What do you need
+      question: What do you want!?
       answers:
       - answerLabel: Learn more about the Inn
         nextElement: 1
@@ -28,17 +44,16 @@ MonoBehaviour:
       - answerLabel: Nothing
         nextElement: 3
   - dialogue:
-    - Info about the Inn....
+    - Info about the Hotel
     endAfterDialogue: 0
     branchPoint:
-      question: Do you need something else?
+      question: Anything else?
       answers:
       - answerLabel: Hint
         nextElement: 2
       - answerLabel: Nothing
         nextElement: 3
-  - dialogue:
-    - I can provide Hints for Puzzle two
+  - dialogue: []
     endAfterDialogue: 0
     branchPoint:
       question: What do you need?
@@ -55,19 +70,38 @@ MonoBehaviour:
       question: 
       answers: []
   - dialogue:
-    - Einfacher Hint
+    - I can give you a hint..
+    - 'or I don''t!
+
+      Haven''t made up my mind yet.'
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Mittlerer Hint
+    - 'You again?!
+
+      Still need my help?'
+    - 'Well..
+
+      I have lost my coins, my soup, soap and my precious axe!'
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Schwerer Hint
+    - 'Still not finished!?
+
+      Maybe you''re not that clever after all...'
+    - 'I need my coins to be with my other coins.
+
+      I want my soup at the bedside
+      table..'
+    - 'and I need my soap besides my bath.
+
+      And of course the axe above the
+      toilet.'
+    - Now go!
     endAfterDialogue: 1
     branchPoint:
       question: 

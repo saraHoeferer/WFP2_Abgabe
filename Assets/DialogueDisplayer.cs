@@ -39,7 +39,7 @@ public class DialogeDisplayyer : MonoBehaviour
     public void StartDialogue()
     {
         ResetBox();
-        nameText.text = name + "...";
+        nameText.text = name;
         dialogueBox.SetActive(true);
         if (!alreadyTalked) {
             StartCoroutine(RunDialogue(dialogueTree, 0));

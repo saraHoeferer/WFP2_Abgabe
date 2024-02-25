@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp-Editor.csproj": {}
+  },
+  "projects": {
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp-Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp-Editor.csproj",
+        "projectName": "Assembly-CSharp-Editor",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp-Editor.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//Assembly-CSharp-Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Assembly-CSharp.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//Assembly-CSharp/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj"
+              },
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj",
+        "projectName": "Ink-Libraries",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//Ink-Libraries/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj",
+        "projectName": "InkEditor",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/InkEditor.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//InkEditor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj": {
+                "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Ink-Libraries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//Unity.XR.Interaction.Toolkit.Samples.StarterAssets/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj",
+        "projectName": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor",
+        "projectPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj",
+        "packagesPath": "/Users/sophiaholzl/.nuget/packages/",
+        "outputPath": "/Users/sophiaholzl/Documents/5. Semester/WFP2/WFP2_Abgabe/Temp/obj//Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophiaholzl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

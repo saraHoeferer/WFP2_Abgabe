@@ -53,7 +53,7 @@ public class DialogeDisplayyer3 : MonoBehaviour
         ResetBox();
         ResetBools();
         check = 1;
-        nameText.text = name + "...";
+        nameText.text = name;
         dialogueBox.SetActive(true);
         if (!alreadyTalked)
         {
@@ -97,17 +97,17 @@ public class DialogeDisplayyer3 : MonoBehaviour
 
         if (section == 1 && check == 2)
         {
-            dialogueText.text = "Okay what happend next?";
+            dialogueText.text = "Right! So what happend next?";
             yield return new WaitForSeconds(5);
         }
         else if (section == 1 && check == 3)
         {
-            dialogueText.text = "What happend third?";
+            dialogueText.text = "Remarkable! And then what?";
             yield return new WaitForSeconds(5);
         }
         else if (section == 1 && check == 4)
         {
-            dialogueText.text = "What happend last?";
+            dialogueText.text = "Ohh I remember! What happened at last?";
             yield return new WaitForSeconds(5);
         }
         else

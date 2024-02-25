@@ -14,12 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sections:
   - dialogue:
-    - Hi There!
-    - I am Stan
-    - Welcome to the Inn Teresting.
+    - 'Hello there and
+
+      welcome to the Inn Teresting!'
+    - "It is nice to meet you, \nmy name is Alice.\n"
+    - 'I am sure you will enjoy your stay!
+
+      You will find the first clue
+
+      in
+      the storage room.'
+    - I am here if you need anything!
     endAfterDialogue: 0
     branchPoint:
-      question: What do you need
+      question: What do you need?
       answers:
       - answerLabel: Trade
         nextElement: 1
@@ -28,13 +36,12 @@ MonoBehaviour:
       - answerLabel: Nothing
         nextElement: 3
   - dialogue:
-    - What do u wanna trade?
+    - Do you have something to trade?
     endAfterDialogue: 0
     branchPoint:
       question: 
       answers: []
-  - dialogue:
-    - I can provide Hints for Puzzle two
+  - dialogue: []
     endAfterDialogue: 0
     branchPoint:
       question: What do you need?
@@ -51,19 +58,23 @@ MonoBehaviour:
       question: 
       answers: []
   - dialogue:
-    - Einfacher Hint
+    - Did you see the list on the wall?
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Mittlerer Hint
+    - I can give you another hint..
+    - Maybe you need to count something?
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Schwerer Hint
+    - 'Oh I see you are really stuck!
+
+      This will help you..'
+    - "Try counting the items that are displayed \non the list to find the code."
     endAfterDialogue: 1
     branchPoint:
       question: 
@@ -80,15 +91,19 @@ MonoBehaviour:
       - answerLabel: Nothing
         nextElement: 3
   - dialogue:
-    - No that is not what i wanted
+    - 'Sorry, I can''t do anything with this..
+
+      Do you have something else?'
     endAfterDialogue: 1
     branchPoint:
       question: 
       answers: []
   - dialogue:
-    - Thank you.
-    - Try to open the safe again.
-    - This time try the cushions, the purple jars and the pink rolled in towels
+    - Yes, this is what I wanted!
+    - 'Now try and open up the safe again..
+
+      I left you something there!'
+    - This time try the cushions, the purple jars and the pink rolled in towels.
     endAfterDialogue: 1
     branchPoint:
       question: 
