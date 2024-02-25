@@ -15,7 +15,9 @@ public class Clock : MonoBehaviour
     [SerializeField] InputField inputFieldYellowM;
     [SerializeField] InputField inputFieldRedH;
     [SerializeField] InputField inputFieldRedM;
-    [SerializeField] TextMeshProUGUI result;
+    [SerializeField] GameObject textCanva;
+
+    [SerializeField] GameObject Hideout;
 
     void Start()
     {
@@ -31,9 +33,6 @@ public class Clock : MonoBehaviour
     {
         if(inputFieldGreenH.text == "3" && inputFieldGreenM.text == "00")
         {
-            result.text = "Korrekt";
-            result.fontSize = 0.2f;
-            result.color = Color.white;
             Debug.Log("Korrekt");
         }
         else{
@@ -45,9 +44,6 @@ public class Clock : MonoBehaviour
     {
         if(inputFieldYellowH.text == "9" && inputFieldYellowM.text == "00")
         {
-            result.text = "Korrekt";
-            result.fontSize = 0.2f;
-            result.color = Color.white;
             Debug.Log("Korrekt");
         }
         else{
@@ -60,9 +56,6 @@ public class Clock : MonoBehaviour
     {
         if(inputFieldRedH.text == "9" && inputFieldRedM.text == "30")
         {
-            result.text = "You";
-            result.fontSize = 0.2f;
-            result.color = Color.white;
             Debug.Log("Korrekt");
         }
         else{
@@ -74,16 +67,19 @@ public class Clock : MonoBehaviour
 
         if(inputFieldGreenH.text == "11" && inputFieldGreenM.text == "45" && inputFieldYellowH.text == "9" && inputFieldYellowM.text == "00" && inputFieldRedH.text == "6" && inputFieldRedM.text == "15")
         {
-            result.text = "You win!";
-            result.fontSize = 0.1f;
-            result.color = Color.white;
+            Hideout.SetActive(false);
+            textCanva.SetActive(true);
             Debug.Log("richtig");
         }
         else{
-            result.text = "Something is not right...";
-            result.fontSize = 0.1f;
-            result.color = Color.white;
             Debug.Log("falsch");
+        }
+    }
+
+    public void pickupKey() {
+        if (!gameLogic.key4) {
+            gameLogic.key4 = true;
+            textCanva.SetActive(false);
         }
     }
 
