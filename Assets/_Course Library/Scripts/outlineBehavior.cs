@@ -9,8 +9,6 @@ public class outlineBehavior : MonoBehaviour
 
     // Update is called once per frame
     public void onHoverEnter () {
-        print(highlight);
-        print(highlight.GetComponent<Outline>());
         highlight.GetComponent<Outline>().enabled = true;
     }
 

@@ -496,6 +496,7 @@
 "Assets/_Course Library/Scripts/NPCs/State.cs"
 "Assets/_Course Library/Scripts/NPCs/Transition.cs"
 "Assets/_Course Library/Scripts/outlineBehavior.cs"
+"Assets/_Course Library/Scripts/PhysicRig.cs"
 "Assets/_Course Library/Scripts/Testing/DisplayFPS.cs"
 "Assets/_Course Library/Scripts/Testing/Notes.cs"
 "Assets/_Course Library/Scripts/Testing/TeleportAnchorWithFade.cs"
