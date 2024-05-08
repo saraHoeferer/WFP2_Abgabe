@@ -349,9 +349,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Runtime/MockHMD.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Runtime/MockHMDBuildSettings.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Runtime/MockHMDLoader.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Runtime/MockHMD.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Runtime/MockHMDBuildSettings.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Runtime/MockHMDLoader.cs"
 -langversion:9.0
 
 /deterministic

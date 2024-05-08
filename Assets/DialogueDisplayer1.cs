@@ -17,8 +17,6 @@ public class DialogeDisplayyer1 : MonoBehaviour
     [SerializeField] GameObject[] answerObjects;
 
     public DialougeTree dialogueTree;
-
-    bool skipLineTriggered;
     bool answerTriggered;
     int answerIndex;
 
@@ -98,7 +96,6 @@ public class DialogeDisplayyer1 : MonoBehaviour
         StopAllCoroutines();
         dialogueBox.SetActive(false);
         answerBox.SetActive(false);
-        skipLineTriggered = false;
         answerTriggered = false;
     }
 
@@ -117,11 +114,6 @@ public class DialogeDisplayyer1 : MonoBehaviour
                 answerObjects[i].gameObject.SetActive(false);
             }
         }
-    }
-
-    public void SkipLine()
-    {
-        skipLineTriggered = true;
     }
 
     public void AnswerQuestion(int answer)

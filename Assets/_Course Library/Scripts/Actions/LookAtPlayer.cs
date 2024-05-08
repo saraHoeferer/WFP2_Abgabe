@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.XR.CoreUtils;
+using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 /// <summary>
@@ -20,7 +21,7 @@ public class LookAtPlayer : MonoBehaviour
 
     private void Awake()
     {
-        cameraObject = FindObjectOfType<XRRig>().cameraGameObject;
+        cameraObject = FindObjectOfType<XROrigin>().Camera.gameObject;
         originalRotation = transform.eulerAngles;
     }
 

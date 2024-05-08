@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638442808675942511
-    m_Hash: 2637309534
+      ticks: 638505844195865584
+    m_Hash: 3283487124
   m_LockFileStatus:
     m_FilePath: D:/FH/Backup/test1 - Kopie (2)/WFP2_Abgabe/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638442808676012283
-    m_Hash: 4158167745
+      ticks: 638505844195955277
+    m_Hash: 208485515
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -185,8 +185,10 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     compatible:
     - 2.2.0
+    - 2.3.1
     recommended: 2.2.0
     deprecated: []
   dependencies: []
@@ -295,10 +297,12 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
     compatible:
     - 3.0.26
     - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -695,6 +699,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -714,6 +719,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -763,12 +769,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.8
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.8
   source: 1
-  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.textmeshpro@3.0.8
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -777,7 +783,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -938,13 +944,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638433339070000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: dd92f03985c9bda38a4721cc146a6b74d2832a1f
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -1167,11 +1173,13 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
+    - 2.0.9
     compatible:
     - 2.0.4
     - 2.0.5
     - 2.0.6
-    recommended: 2.0.6
+    - 2.0.9
+    recommended: 2.0.9
     deprecated: []
   dependencies:
   - name: com.unity.sysroot
@@ -1240,6 +1248,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1285,12 +1294,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.interaction.toolkit@2.5.2
+- packageId: com.unity.xr.interaction.toolkit@2.5.4
   testable: 0
   isDirectDependency: 1
-  version: 2.5.2
+  version: 2.5.4
   source: 1
-  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.interaction.toolkit@2.5.2
+  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.interaction.toolkit@2.5.4
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1347,11 +1356,23 @@ m_ResolvedPackages:
     - 2.5.0
     - 2.5.1
     - 2.5.2
+    - 2.5.3
+    - 2.5.4
     - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
     compatible:
     - 2.5.2
+    - 2.5.3
+    - 2.5.4
     - 3.0.0-pre.1
-    recommended: 2.5.2
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    recommended: 2.5.4
     deprecated: []
   dependencies:
   - name: com.unity.inputsystem
@@ -1414,13 +1435,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638321761050000000
+  datePublishedTicks: 638484578960000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-    revision: b246090d3472f6ddef44f0d6251360fc3d19a2b5
+    revision: e01bea0029c4995e80fe3e3f8a24f92e1cad1f4c
     path: 
   unityLifecycle:
     version: 2.5.2
@@ -1430,12 +1451,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.management@4.4.0
+- packageId: com.unity.xr.management@4.4.1
   testable: 0
   isDirectDependency: 1
-  version: 4.4.0
+  version: 4.4.1
   source: 1
-  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.management@4.4.0
+  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.management@4.4.1
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1550,13 +1571,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638224209960000000
+  datePublishedTicks: 638410379800000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-    revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
+    revision: 0eaf10a186d9e12b264d5e10d1c7daa345428fb4
     path: 
   unityLifecycle:
     version: 4.4.0
@@ -1566,12 +1587,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.mock-hmd@1.3.1-preview.1
+- packageId: com.unity.xr.mock-hmd@1.4.0-preview.2
   testable: 0
   isDirectDependency: 1
-  version: 1.3.1-preview.1
+  version: 1.4.0-preview.2
   source: 1
-  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.mock-hmd@1.3.1-preview.1
+  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.mock-hmd@1.4.0-preview.2
   assetPath: Packages/com.unity.xr.mock-hmd
   name: com.unity.xr.mock-hmd
   displayName: MockHMD XR Plugin
@@ -1580,7 +1601,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Provides rendering and input support for XR MockHMD.
   status: 0
   errors: []
@@ -1600,6 +1621,7 @@ m_ResolvedPackages:
     - 1.2.0-preview.1
     - 1.3.0-preview.1
     - 1.3.1-preview.1
+    - 1.4.0-preview.2
     compatible:
     - 1.0.0-preview.1
     - 1.0.0-preview.2
@@ -1615,6 +1637,7 @@ m_ResolvedPackages:
     - 1.2.0-preview.1
     - 1.3.0-preview.1
     - 1.3.1-preview.1
+    - 1.4.0-preview.2
     recommended: 
     deprecated: []
   dependencies:
@@ -1622,7 +1645,7 @@ m_ResolvedPackages:
     version: 4.0.1
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.4.0
+    version: 4.4.1
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -1650,13 +1673,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638097381770000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.mock-hmd@1.3/manual/index.html
+  datePublishedTicks: 638500028990000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.mock-hmd@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.mock-hmd.git
-    revision: 62660dd52929e393c321309dcf65d3d4725fb41a
+    revision: da988b45ffbae3f02c1204ca1c9a0c4e8da64261
     path: 
   unityLifecycle:
     version: 
@@ -1666,12 +1689,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.oculus@4.1.1
+- packageId: com.unity.xr.oculus@4.1.2
   testable: 0
   isDirectDependency: 1
-  version: 4.1.1
+  version: 4.1.2
   source: 1
-  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.oculus@4.1.1
+  resolvedPath: D:\FH\Backup\test1 - Kopie (2)\WFP2_Abgabe\Library\PackageCache\com.unity.xr.oculus@4.1.2
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -1759,6 +1782,7 @@ m_ResolvedPackages:
     - 3.2.3-pre.1
     - 3.2.3
     - 3.3.0
+    - 3.4.0
     - 4.0.0
     - 4.1.1
     - 4.1.2
@@ -1778,7 +1802,7 @@ m_ResolvedPackages:
     version: 4.4.0
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.4.0
+    version: 4.4.1
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -1809,13 +1833,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300179690000000
+  datePublishedTicks: 638351474750000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-    revision: f4140cf34083633dceb4226b6b3d593059b9ca35
+    revision: 43cbde15c785269457550d6f414b4b2590c5ff3b
     path: 
   unityLifecycle:
     version: 4.1.1
@@ -1873,9 +1897,11 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.1
     - 1.10.0
+    - 1.11.0-exp.1
     compatible:
     - 1.9.1
     - 1.10.0
+    - 1.11.0-exp.1
     recommended: 1.9.1
     deprecated: []
   dependencies:
@@ -1889,7 +1915,7 @@ m_ResolvedPackages:
     version: 2.1.1
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.4.0
+    version: 4.4.1
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -4010,10 +4036,16 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.8.0-pre.1
     - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
     - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -4285,11 +4317,13 @@ m_ResolvedPackages:
     - 2.0.5
     - 2.0.6
     - 2.0.7
+    - 2.0.10
     compatible:
     - 2.0.5
     - 2.0.6
     - 2.0.7
-    recommended: 2.0.7
+    - 2.0.10
+    recommended: 2.0.10
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4361,11 +4395,13 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
+    - 2.0.9
     compatible:
     - 2.0.4
     - 2.0.5
     - 2.0.6
-    recommended: 2.0.6
+    - 2.0.9
+    recommended: 2.0.9
     deprecated: []
   dependencies:
   - name: com.unity.sysroot
@@ -4622,12 +4658,16 @@ m_ResolvedPackages:
     - 1.8.10
     - 1.8.11
     - 1.8.12
+    - 1.8.13
+    - 1.8.14
     compatible:
     - 1.8.9
     - 1.8.10
     - 1.8.11
     - 1.8.12
-    recommended: 1.8.12
+    - 1.8.13
+    - 1.8.14
+    recommended: 1.8.14
     deprecated: []
   dependencies:
   - name: com.unity.mathematics

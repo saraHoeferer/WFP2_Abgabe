@@ -357,12 +357,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Editor/MockHMDBuildProcessor.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Editor/MockHMDPackageMetadata.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Editor/MultiCamera/AddCameraWindow.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Editor/MultiCamera/AdditionalMockCameras.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Editor/MultiCamera/NativeAPI.cs"
-"Library/PackageCache/com.unity.xr.mock-hmd@1.3.1-preview.1/Editor/MultiCamera/RenderPassTextureWindow.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Editor/MockHMDBuildProcessor.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Editor/MockHMDPackageMetadata.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Editor/MultiCamera/AddCameraWindow.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Editor/MultiCamera/AdditionalMockCameras.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Editor/MultiCamera/NativeAPI.cs"
+"Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Editor/MultiCamera/RenderPassTextureWindow.cs"
 -langversion:9.0
 
 /deterministic

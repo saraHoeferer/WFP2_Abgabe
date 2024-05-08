@@ -20,8 +20,6 @@ public class DialogeDisplayyer3 : MonoBehaviour
     [SerializeField] GameObject[] answerObjects;
 
     public DialougeTree dialogueTree;
-
-    bool skipLineTriggered;
     bool answerTriggered;
     int answerIndex;
 
@@ -252,7 +250,6 @@ public class DialogeDisplayyer3 : MonoBehaviour
         StopAllCoroutines();
         dialogueBox.SetActive(false);
         answerBox.SetActive(false);
-        skipLineTriggered = false;
         answerTriggered = false;
         ResetBools();
         check = 1;
@@ -285,10 +282,6 @@ public class DialogeDisplayyer3 : MonoBehaviour
         }
     }
 
-    public void SkipLine()
-    {
-        skipLineTriggered = true;
-    }
 
     public void AnswerQuestion(int answer)
     {
