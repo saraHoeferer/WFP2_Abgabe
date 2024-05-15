@@ -9,10 +9,14 @@ public class outlineBehavior : MonoBehaviour
 
     // Update is called once per frame
     public void onHoverEnter () {
-        highlight.GetComponent<Outline>().enabled = true;
+        if (highlight.activeInHierarchy) {
+            highlight.GetComponent<Outline>().enabled = true;
+        }
     }
 
     public void OnHoverExit () {
-        highlight.GetComponent<Outline>().enabled = false;
+        if (highlight.activeInHierarchy) {
+            highlight.GetComponent<Outline>().enabled = false;
+        }
     }
 }

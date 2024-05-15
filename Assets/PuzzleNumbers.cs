@@ -9,6 +9,8 @@ public class PuzzleNumbers : MonoBehaviour
     [SerializeField] GameObject text;
 
     [SerializeField] GameObject key;
+
+    [SerializeField] GameObject food;
     private bool number1 = false;
     private bool number2 = false;
     private bool number3 = false;
@@ -99,6 +101,7 @@ public class PuzzleNumbers : MonoBehaviour
         hideout.SetActive(false);
         if (!gameLogic.key1) {
             key.SetActive(true);
+            food.SetActive(true);
             text.gameObject.SetActive(true);
         } else if (secret) {
             key.SetActive(true);
