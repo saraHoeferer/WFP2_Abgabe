@@ -21,7 +21,7 @@ public class key1 : MonoBehaviour
 
         if (objName.transform.name == key.name){
             print("here");
-            key.SetActive(false);
+            objName.transform.gameObject.SetActive(false);
             if (key.name == "Exit - Key" ) {
                 SceneManager.LoadScene(2);
             } else {

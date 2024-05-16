@@ -14,6 +14,8 @@ public class timeScript : MonoBehaviour
 
     [SerializeField] GameObject textCanva;
 
+    [SerializeField] GameObject key;
+
     public static bool green = false;
 
     public static bool yellow = false;
@@ -84,6 +86,7 @@ public class timeScript : MonoBehaviour
             thisCanva.SetActive(false);
             hideout.SetActive(false);
             textCanva.SetActive(true);
+            key.SetActive(true);
         }
         else
         {

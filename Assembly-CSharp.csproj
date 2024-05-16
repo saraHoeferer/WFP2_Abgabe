@@ -84,7 +84,6 @@
     <Compile Include="Assets\puzzle4.cs" />
     <Compile Include="Assets\_Course Library\Scripts\DialougeTree\DialougeTree.cs" />
     <Compile Include="Assets\_Course Library\Scripts\NPCs\FSMAction.cs" />
-    <Compile Include="Assets\_Course Library\Scripts\PhysicRig.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleLight.cs" />
     <Compile Include="Assets\MoneyScript.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />

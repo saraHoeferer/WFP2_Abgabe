@@ -9,5 +9,6 @@ public class puzzle4 : MonoBehaviour
 
     public static void solutionFound() {
         GameObject.Find("keyDrawer4").SetActive(false);
+        GameObject.Find("keyPuzzle4").transform.GetChild(0).gameObject.SetActive(true);
     }
 }

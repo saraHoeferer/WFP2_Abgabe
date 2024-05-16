@@ -95,6 +95,7 @@ public class bookScript : MonoBehaviour
 
     public void showKey() {
         GameObject.Find("drawerKey").SetActive(false);
+        GameObject.Find("keyPuzzle3").transform.GetChild(0).gameObject.SetActive(true);
         GameObject.Find("keyPuzzle3").transform.GetChild(1).gameObject.SetActive(true);
     }
 

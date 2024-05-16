@@ -51,6 +51,7 @@ public class gameLogic : MonoBehaviour
         if (axe && soup && bottle && money) {
             print("here");
             GameObject.Find("drawer").SetActive(false);
+            GameObject.Find("key").transform.GetChild(0).gameObject.SetActive(true);
             GameObject.Find("key").transform.GetChild(1).gameObject.SetActive(true);
         } else {
             print("noch nicht found");
@@ -59,8 +60,8 @@ public class gameLogic : MonoBehaviour
 
     public static void pickupKey() {
         if (!found) {
-           GameObject.Find("key").transform.GetChild(1).gameObject.SetActive(false);
-          found = true;
+            GameObject.Find("key").transform.GetChild(1).gameObject.SetActive(false);
+            found = true;
         }
     }
 
